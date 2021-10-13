@@ -10,8 +10,6 @@ namespace NBATeams.Models
     {
         public int ID { get; set; }
         public string TeamName { get; set; }
-
-        [DataType(DataType.Date)]
         public string Location { get; set; }
         public string Mascot { get; set; }
         public string Abbreviation { get; set; }
